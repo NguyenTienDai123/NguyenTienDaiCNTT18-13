@@ -1,0 +1,139 @@
+/* Cấu trúc cơ bản của trang */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Phần Chi Tiết Sản Phẩm */
+.product-detail-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-images {
+  width: 40%;
+  text-align: center;
+}
+
+.product-images .main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail-images {
+  margin-top: 20px;
+}
+
+.thumbnail-images img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.thumbnail-images img:hover {
+  transform: scale(1.1);
+}
+
+.product-info {
+  width: 55%;
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.product-options {
+  margin-top: 20px;
+}
+
+.product-options label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.product-options select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.quantity {
+  margin-top: 20px;
+}
+
+.quantity label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.quantity input {
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Nút thêm vào giỏ hàng */
+.add-to-cart-bt

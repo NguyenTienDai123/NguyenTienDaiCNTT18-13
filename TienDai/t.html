@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm - Áo Thời Trang</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1>Shop Thời Trang</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Sản Phẩm</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Phần Chi Tiết Sản Phẩm -->
+    <div class="product-detail-container">
+        <div class="product-images">
+            <img src="n8.jpg" alt="Áo Thời Trang" class="main-image">
+            <div class="thumbnail-images">
+                <img src="n1.jpg" alt="Áo Thời Trang 1" class="thumbnail">
+                <img src="n5.jpg" alt="Áo Thời Trang 2" class="thumbnail">
+                <img src="m5.jpg" alt="Áo Thời Trang 3" class="thumbnail">
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h2 class="product-title">Áo Thời Trang Nữ - Màu Đen</h2>
+            <p class="product-price">Giá: <strong>500.000 VNĐ</strong></p>
+            <p class="product-description">
+                Áo thời trang nữ với thiết kế hiện đại, phù hợp cho mọi dịp. Chất liệu vải mềm mại, thoải mái và thoáng khí.
+            </p>
+
+            <div class="product-options">
+                <div class="size-option">
+                    <label for="size">Chọn Kích Cỡ:</label>
+                    <select id="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+
+                <div class="color-option">
+                    <label for="color">Chọn Màu:</label>
+                    <select id="color">
+                        <option value="black">Đen</option>
+                        <option value="white">Trắng</option>
+                        <option value="red">Đỏ</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="quantity">
+                <label for="quantity">Số Lượng:</label>
+                <input type="number" id="quantity" value="1" min="1" max="10">
+            </div>
+
+            <button class="add-to-cart-btn">Thêm Vào Giỏ Hàng</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Shop Thời Trang. Tất cả quyền được bảo vệ.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
